@@ -1,5 +1,5 @@
   // Vector initial
-  
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -14,6 +14,14 @@ int main(){
 
     v[2] = 10; // Now v[2]=10
 
-    cout<<v[3]<<endl;
+    cout<<"Vector size is: ";
+    cout<<v.size()<<endl;  // v.size() means size of vestor
+
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<" ";
+    }
+    cout<<endl;
+    
+    //cout<<v[3]<<endl;
 }
 // vector slow than array
