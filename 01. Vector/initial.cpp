@@ -1,3 +1,5 @@
+  // Vector initial
+  
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -14,3 +16,4 @@ int main(){
 
     cout<<v[3]<<endl;
 }
+// vector slow than array
