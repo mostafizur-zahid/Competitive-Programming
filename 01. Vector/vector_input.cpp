@@ -13,7 +13,7 @@ int main(){
         v.push_back(a);
     }
     cout<<"Vector size is: "<<v.size()<<endl;
-    cout<<"these are:"<<endl;
+    cout<<"These are:"<<endl;
 
     for(int i=0;i<v.size();i++)
     cout<<v[i]<<" ";
